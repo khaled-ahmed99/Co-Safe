@@ -1,0 +1,46 @@
+name: co_safe
+description: Graduation Project
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  country_list_pick: ^1.0.1+4
+  provider: ^5.0.0
+  email_validator: ^2.0.1
+  http: ^0.13.3
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  font_awesome_flutter: ^9.1.0
+  url_launcher: ^6.0.4
+  flutter_launcher_icons: ^0.9.0
+  package_info: ^2.0.2
+  intl: ^0.17.0
+  nearby_connections: ^3.1.0
+  flutter_local_notifications: ^6.0.0
+  get: ^4.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/
+     - assets/images/
+     - assets/flags/
+     - assets/symptoms/
+     - assets/prevention/
+
+  fonts:
+     - family: Inconsolata
+       fonts:
+         - asset: fonts/Inconsolata.ttf
